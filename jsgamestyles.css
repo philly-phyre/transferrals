@@ -1,0 +1,7 @@
+#game {
+	float: left;
+	clear: both;
+	border: 5px solid #f00;
+	height: 200px;
+	width: 200px;
+}

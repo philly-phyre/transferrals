@@ -1,0 +1,363 @@
+/* */
+
+mark {
+	background-color: #abcdef;
+}
+
+mark.diff-mark {
+	background-color: #a5a;
+	color: #ff1;
+}
+
+/* NAVBAR */
+
+#navbar {
+	height: 24px;
+	width: 100%;
+	border-radius: 3px;
+	background-color: #557;
+	padding-top: 12px;
+	padding-bottom: 9px;
+	margin-bottom: 17px;
+	float: left;
+	clear: both;
+}
+
+/* header links */
+
+a.navlink {
+	text-decoration: none;
+	text-align: left;
+	font: 14px sans-serif;
+	color: #11e;
+	background-color: #126ade;
+	border: 1px solid #60f;
+	border-radius: 3px;
+	margin-left: 25px;
+	padding-left: 6px;
+	padding-right: 6px;
+	float: left;
+	display: inline;
+	-webkit-transition: background-color ease 0.4s;
+    -moz-transition: background-color ease 0.4s;
+    -o-transition: background-color ease 0.4s;
+    transition: background-color ease 0.4s;
+}
+
+a.navlink:hover {
+	color: #242;
+	background-color: #575;
+	border: 1px solid #353;
+}
+
+a.navlink:active {
+	color: #242;
+	background-color: #575;
+	border: 1px solid #353;
+}
+
+a.navlink:visited {
+	color: #11e;
+	background-color: #126ade;
+	border: 1px solid #60f;
+}
+
+a.navlink:visited:hover {
+	color:#242;
+	background-color: #575;
+	border: 1px solid #353;
+}
+
+.extra-right {
+    margin-right: 200px;
+}
+
+/* navtime||date.js */
+
+.navtime {
+	font-size: 13px;
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	color: #ff2;
+	opacity: 0.7;
+	float: right;
+	padding: 5px 15px 10px 15px;
+	margin-top: -4px;
+}
+
+.navtime:hover {
+	text-decoration: underline;		
+	color: #ff2;
+	background-color: #575;
+	border: 2px double #ff2;
+	border-radius: 4px;
+}
+ /* */
+ 
+ 
+ /* */
+ /* BODY */
+/*index*/
+/* billboard */
+
+.billboard {
+	background-image: url('http://s14.postimg.org/42t9copz5/tempestlogo.jpg');
+	opacity: 0.74;
+	height: 300px;
+	width: 999px;
+	float: left;
+	clear: both;
+}
+
+.billboard:active {
+	opacity: 0.57;
+}
+
+#billboard-welcome {
+	text-decoration: underline;
+	font-family: sans-serif;
+	color: #d50;
+	text-align: left;
+	margin-left: 71px;
+	margin-top: 29px;
+	opacity: 0.74;
+	margin-bottom: 34px;
+}
+
+#learn-more {
+	background-color: #339;
+	color: #888;
+	border: 1px solid #339 #202060  #339 #202060;
+	float: right;
+	clear: right;
+	margin-right: 14px;
+	margin-top: 181px;
+	opacity: 0.6;
+}
+
+/* #guarantees */
+
+
+#guarantees {
+	float: left;
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-weight: bold;
+	font-size: 15px;
+	margin-left: 116px;
+	color: #d50;
+	text-decoration: underline;
+	opacity: 0.74;
+}
+
+.billboard-list {
+	list-style-type: square;
+	font-size: 12px;
+	margin-left: 34px;
+}
+
+.item:hover {
+	font-size: 13.5px;
+	font-style: italic;
+}
+
+/* home info */
+
+.home-info {
+    float: left;
+    clear: both;
+    height: 240px;
+    width: 970px;
+    margin-top: 15px;
+    background-color: #abcdef;
+    border: 3px ridge #89abcd;
+}
+
+.home-innerfo {
+    padding-top: 50px;
+}
+
+/*about*/
+
+.abouter {
+	background-color: #eef;
+	border-radius: 9px;
+	margin-bottom: 10px;
+	padding-top: 5px;
+	padding-bottom: 44px;
+	width: 975px;
+	float: left;	
+}
+
+.abheader {
+	padding-left: 1%;
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	color: #444;
+	text-decoration: underline;
+	
+}
+
+.abinner {
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 15px;
+	line-height: 24.5px;
+	width: 75%;
+	background-color: #dcf;
+	margin: auto;
+	border: 5px ridge #ae5095;
+	border-radius: 3px;
+	padding-top: 16px;
+	padding-bottom: 21px;
+}
+
+#abtext {
+	position: relative;
+	left: 8%;
+	color: #220b17;
+}
+
+.indent {
+	margin-left: 34px;
+}
+
+#sig {
+	margin-left: 66%;
+	color: #220b17;
+}
+
+/* news & updates */
+
+.newscontainer {
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 14px;
+	border: 1px solid black;
+	height: 572px;
+	width: 700px;
+	float: left;
+	clear: left;
+	display: table;
+}
+
+#appendedTo {
+	border: 4px ridge #ae5095;
+	padding: 6px;
+	position: relative;
+	top: 19px;
+	left: 2.5%;
+	height: 315px;
+	width: 800px;
+	display: block;
+	float: left;
+}
+
+#vertbottom {
+	display: table-cell;
+	vertical-align: bottom;
+	padding-bottom: 9px;
+	position: relative;
+	right: 50%;
+}
+.password {
+	margin: 1px;
+}
+
+#submitpass {
+	margin-left: 13px;
+}
+
+textarea[name='newsinput'] {
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	display: none;
+	margin-bottom: 12px;
+	margin-top: 363px;
+	clear: left;
+}
+
+input[name='newssubmit'] {
+	position: relative;
+	border-radius: 3px;
+	color: #999;
+	background-color: #202060;
+	left: 63%;
+	display: none;
+	clear: left;
+}
+
+.update {
+	border: 2px solid #555;
+}
+
+
+
+/* right panel */
+
+.right-panel {
+	border: 1px solid #555;
+	float: right;
+	clear: right;
+	margin-right: 9px;
+	margin-bottom: 8px;
+}
+
+.right-header {
+	height: 61px;
+	width: 310px;
+}
+
+.right-body {
+	height: 501px;
+	width: 310px;
+}
+
+/* right scroller */
+
+.right-scroller {
+	border: 2px solid #555;
+}
+/* */
+
+
+/* */
+/* FOOTER */
+
+/* footernav */
+
+.footer {
+	border: 1px solid #338;
+	border-radius: 3px;
+	background-color: #2020c0;
+	clear: both;
+}
+
+.footernav {
+	clear: both;
+	padding-left: 40%;
+}
+
+.footlink {
+	font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
+	font-size: 11px;
+	color: #126ade;
+}
+
+.footlink:hover {
+	text-decoration: line-through;
+}
+
+.footinline {
+	display: inline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
